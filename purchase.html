@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="desctiption" content="橫與豎 衣物收納專家">
+    <meta name="keywords" content="衣物,收納,斷捨離">
+    <meta name="author" content="Amberhh">
+
+    <title>橫與豎</title>
+    <link rel="shortcut icon" href="./images/icon.png">
+    <link rel="stylesheet" href="./stylesheet/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="logo"
+                    style="width:111px; height:40px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" aria-current="page" href="./index.html">首頁</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">服務介紹</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./faq.html">常見問題</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#contact-us">聯絡我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary text-white" href="#">方案費用</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-5" style="background-image: url(./images/bg_paper.png);">
+        <div class="container text-center fw-bold">
+            <p class="text-primary fs-4 font-monospace">TIDY LIFE</p>
+            <h1 class="h2">馬上學習橫與豎工法</h1>
+        </div>
+    </header>
+
+    <section class="p-5 container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <form action="" class="p-lg-5 shadow-lg text-secondary">
+                    <h3 class="line-deco fs-4 mb-3 text-dark">選擇方案</h3>
+                    <div class="row row-cols-1 row-cols-md-3 g-1 mb-4 pb-2">
+                        <div class="col"><a href="#" class="btn btn-outline-primary w-100 p-3 text-dark">教你基本小撇步<br class="d-none d-md-block">NT
+                                298/月</a>
+                        </div>
+                        <div class="col"><a href="#" class="btn btn-outline-primary w-100 p-3 text-dark">實用空間收納術<br class="d-none d-md-block">NT
+                                666/月</a>
+                        </div>
+                        <div class="col"><a href="#"
+                                class="btn btn-outline-primary w-100 p-3 text-dark">徹底幫你斷捨離<br class="d-none d-md-block">客服詢價</a></div>
+                    </div>
+                    <h3 class="line-deco fs-4 mb-3 text-dark">填寫資料</h3>
+                    <div class="mb-3">
+                        <div class="row row-cols-1 row-cols-md-2 g-2">
+                            <div class="col">
+                                <label for="firstname" class="form-label">名字</label>
+                                <input type="text" id="firstname" class="form-control" aria-label="First name" required>
+                            </div>
+                            <div class="col">
+                                <label for="lastname" class="form-label">姓氏</label>
+                                <input type="text" id="lastname" class="form-control" aria-label="Last name" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">手機號碼</label>
+                        <input type="text" class="form-control" id="phone" aria-label="phone number" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email-address" class="form-label">電子郵件</label>
+                        <input type="email" class="form-control" id="email-address" aria-label="email address" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="address" class="form-label">住址</label>
+                        <input type="text" class="form-control" id="address" aria-label="home address" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="time" class="form-label">方便聯繫時間</label>
+                        <select class="form-select" id="time" aria-label="contact time" required>
+                            <option value="1">9:00-12:00</option>
+                            <option value="2">13:00-17:00</option>
+                            <option value="3">18:00-21:00</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <p>加購服務</p>
+                        <input class="form-check-input" type="checkbox" id="add-item-1" aria-label="home address">
+                        <label class="form-check-label" for="add-item-1">貼身衣物收納教學 NT$100</label><br>
+                        <input class="form-check-input" type="checkbox" id="add-item-2" aria-label="home address">
+                        <label class="form-check-label" for="add-item-2">帽子專用洞洞板 NT$150</label><br>
+                        <input class="form-check-input" type="checkbox" id="add-item-3" aria-label="home address">
+                        <label class="form-check-label" for="add-item-3">鞋類收納與清潔工法 NT$250</label>
+                    </div>
+                    <div class="mb-5">
+                        <label for="message" class="form-label">備註說明</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary w-100">選擇方案</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-light">
+        <div class="container p-5">
+            <h2 class="fw-bold mb-4 text-center" id="contact-us">需要其他協助嗎？</h2>
+            <div class="row g-3 d-flex justify-content-center">
+                <div class="col-9 col-md-4 col-lg-3">
+                    <a href="tel:+8867555666" class="d-block p-4 bg-white btn shadow text-nowrap"><i
+                            class="bi bi-telephone-fill text-primary me-2"></i>07-555-666</a>
+                </div>
+                <div class="col-9 col-md-4 col-lg-3"><a class="d-block p-4 bg-white btn shadow text-nowrap"><i
+                            class="bi bi-facebook text-primary me-2"></i>橫與豎收納專家</a></div>
+                <div class="col-9 col-md-4 col-lg-3"><a href="./faq.html" class="d-block p-4 bg-white btn shadow text-nowrap"><i
+                            class="bi bi-question-circle-fill text-primary me-2"></i>常見問題</a></div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#" class="btn btn-primary rounded-circle text-white top-btn"><i
+            class="bi bi-arrow-up fw-bold fw-5"></i></a>
+    <footer class="bg-secondary p-3 text-center text-white">
+        <p class="mb-0">Copyright © 2022 橫與豎.All rights reserved. <br class="d-md-none"> Author by Amberhh</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+   
+</body>
+
+</html>
