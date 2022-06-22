@@ -6,30 +6,4 @@
 @import "./utilities";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-
-.header{
-    height:627px;
-    background-image: url(../images/header-bg.png);
-    background-size: cover;
-    background-position: center center;
-}
-
-.line-deco{
-    padding-left: 1rem;
-    position: relative;
-    &::after{
-        content:"";
-        position: absolute;
-        top:0;
-        left:0;
-        bottom:0;
-        width:3px;
-        background-color: $primary;
-    }
-}
-.top-btn{
-    position:fixed;
-    bottom:50px;
-    right:50px;
-    z-index:10;
-}
+@import "./index";
